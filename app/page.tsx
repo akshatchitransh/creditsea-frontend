@@ -34,37 +34,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button
-                className="
-                  h-12
-                  px-8
-                  rounded-2xl
-                  bg-cyan-400
-                  text-black
-                  font-semibold
-                  hover:bg-cyan-300
-                  transition-all
-                "
-              >
-                Get Started
-              </button>
-
-              <button
-                className="
-                  h-12
-                  px-8
-                  rounded-2xl
-                  border
-                  border-white/10
-                  bg-white/5
-                  hover:bg-white/10
-                  transition-all
-                "
-              >
-                Dashboard
-              </button>
-            </div>
+           
           </div>
 
           {/* RIGHT */}

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env. https://creditsea-backend-r4po.onrender.com,
+  baseURL:"https://creditsea-backend-r4po.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
